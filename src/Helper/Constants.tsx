@@ -8,6 +8,7 @@ export class VideoPlayListRow {
 export class StorageKey {
     static SelectedVideo = 'selectedVideo';
     static videoPlayList = 'videoPlayList';
+    static videoPlaTimeUpdate = 'videoPlaTimeUpdate'
 }
 
 export const DefaultVideoPlayList = [

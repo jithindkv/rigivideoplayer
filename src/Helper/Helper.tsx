@@ -21,6 +21,15 @@ export function getLocalStorage(
     }
     return null;
 }
+export function removeLocalStorage(
+    storageKey: string,
+) {
+    if (isNotNullAndUndefined(storageKey)) {
+        window.localStorage.removeItem(
+            storageKey
+        );
+    }
+}
 
 export function setLocalStorage(
     storageKey: string,
